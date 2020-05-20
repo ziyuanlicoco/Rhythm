@@ -1,0 +1,6 @@
+framework module Pods_Rhytm_RhytmUITests {
+  umbrella header "Pods-Rhytm-RhytmUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

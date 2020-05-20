@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Music View Controller-->
+        <scene sceneID="vWW-N8-UAT">
+            <objects>
+                <viewController storyboardIdentifier="playlist" id="euD-g4-RPa" customClass="MusicViewController" customModule="Rhytm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GVT-Zx-nCR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="N6q-cQ-mRo">
+                                <rect key="frame" x="46" y="44" width="100" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="RpG-Xm-ZAG"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="lkv-Zm-X4L"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="rri-le-NMy"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDe-xj-5dh">
+                                <rect key="frame" x="304" y="64" width="100" height="50"/>
+                                <color key="backgroundColor" red="0.41008609530000001" green="0.42107832429999997" blue="0.76082009080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="DzZ-jG-cfI"/>
+                                    <constraint firstAttribute="height" constant="50" id="drM-eY-itA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressButton" destination="euD-g4-RPa" eventType="touchUpInside" id="M03-fq-0JB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tjR-UZ-UBQ" firstAttribute="trailing" secondItem="eDe-xj-5dh" secondAttribute="trailing" constant="10" id="8av-N7-SfS"/>
+                            <constraint firstItem="N6q-cQ-mRo" firstAttribute="top" secondItem="tjR-UZ-UBQ" secondAttribute="top" id="FFS-or-atS"/>
+                            <constraint firstItem="N6q-cQ-mRo" firstAttribute="height" secondItem="GVT-Zx-nCR" secondAttribute="height" multiplier="1.31579" constant="-978.94736842105272" id="LSi-xR-EZm"/>
+                            <constraint firstItem="N6q-cQ-mRo" firstAttribute="leading" secondItem="GVT-Zx-nCR" secondAttribute="leadingMargin" constant="26" id="fM7-9t-UAU"/>
+                            <constraint firstItem="eDe-xj-5dh" firstAttribute="top" secondItem="tjR-UZ-UBQ" secondAttribute="top" constant="20" id="huD-uL-ibu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tjR-UZ-UBQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="eDe-xj-5dh" id="YZI-56-sga"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="opM-Fx-9m2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-188.40579710144928" y="92.410714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="500" height="500"/>
+    </resources>
+</document>

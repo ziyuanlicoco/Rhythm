@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028D36E82460EAB6008C0400 /* SongFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D36E72460EAB6008C0400 /* SongFirebase.swift */; };
+		028D36EC24611A51008C0400 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D36E924611A49008C0400 /* PlaylistViewController.swift */; };
+		028D36ED24611A51008C0400 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D36EA24611A4E008C0400 /* Videos.swift */; };
+		028D36EE24611A51008C0400 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D36EB24611A51008C0400 /* TableViewCell.swift */; };
+		028D36F024626AF8008C0400 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D36EF24626AF8008C0400 /* TimerViewController.swift */; };
+		02D70978245FB0C00095CE2F /* You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D70976245FB0B90095CE2F /* You.mp3 */; };
+		02D70979245FB0C00095CE2F /* Comfort Zone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D70977245FB0BF0095CE2F /* Comfort Zone.mp3 */; };
+		02D7097B245FB0FB0095CE2F /* Echelon-Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D7097A245FB0FB0095CE2F /* Echelon-Effect.mp3 */; };
+		02D7097E245FB41E0095CE2F /* MusicStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D7097D245FB41E0095CE2F /* MusicStoryboard.storyboard */; };
+		02D70980245FB7FE0095CE2F /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7097F245FB7FE0095CE2F /* MusicViewController.swift */; };
+		6D6C54336FB3EAC7445B95B8 /* Pods_RhytmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A1CD26DBAA5AAE292B447 /* Pods_RhytmTests.framework */; };
+		75D88BCD80060D0EF9CAA390 /* Pods_Rhytm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97449BA6B30B4858478BE7B /* Pods_Rhytm.framework */; };
+		9E0B1DA0245FD9BB00C02DA5 /* EditActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B1D9F245FD9BA00C02DA5 /* EditActivityViewController.swift */; };
+		9E0B1DA6246018AA00C02DA5 /* ActivityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B1DA1246018A900C02DA5 /* ActivityCollectionViewCell.xib */; };
+		9E0B1DA7246018AA00C02DA5 /* SavedDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B1DA2246018AA00C02DA5 /* SavedDisplayViewController.swift */; };
+		9E0B1DA8246018AA00C02DA5 /* SearchableSavedDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B1DA3246018AA00C02DA5 /* SearchableSavedDataTableViewCell.swift */; };
+		9E0B1DA9246018AA00C02DA5 /* SearchableSavedDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B1DA4246018AA00C02DA5 /* SearchableSavedDataTableViewCell.xib */; };
+		9E0B1DAA246018AA00C02DA5 /* ActivityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B1DA5246018AA00C02DA5 /* ActivityCollectionViewCell.swift */; };
+		9E278136245C0442004C7888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E278135245C0442004C7888 /* SceneDelegate.swift */; };
+		9E27813B245C0536004C7888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E278138245C0536004C7888 /* LaunchScreen.storyboard */; };
+		9E27813C245C0536004C7888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E278139245C0536004C7888 /* Main.storyboard */; };
+		9E27813D245C0536004C7888 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E27813A245C0536004C7888 /* login.storyboard */; };
+		9E278141245C0970004C7888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E278140245C0970004C7888 /* ViewController.swift */; };
+		9E604B772455848900EEDBCA /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E604B762455848900EEDBCA /* welcomeViewController.swift */; };
+		9E70F056245557BB00712582 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E70F055245557BA00712582 /* GoogleService-Info.plist */; };
+		9EACAA6B245A3FE20025B2F6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EACAA6A245A3FE20025B2F6 /* SignUpViewController.swift */; };
+		9EAE831D2468DC6C00982232 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE831C2468DC6C00982232 /* User.swift */; };
+		9EAE831F24690B9700982232 /* EditUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE831E24690B9700982232 /* EditUserInfoViewController.swift */; };
+		9EC30358244BD08A00ECB93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC30357244BD08A00ECB93A /* AppDelegate.swift */; };
+		9EC30362244BD08A00ECB93A /* Rhytm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EC30360244BD08A00ECB93A /* Rhytm.xcdatamodeld */; };
+		9EC30364244BD08B00ECB93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC30363244BD08B00ECB93A /* Assets.xcassets */; };
+		9EC30372244BD08B00ECB93A /* RhytmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC30371244BD08B00ECB93A /* RhytmTests.swift */; };
+		9EC3037D244BD08B00ECB93A /* RhytmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3037C244BD08B00ECB93A /* RhytmUITests.swift */; };
+		9EC845312467E8A200CB542C /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC845302467E8A200CB542C /* UserProfileViewController.swift */; };
+		9ECA001D245A408B00C944FF /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA001C245A408B00C944FF /* loginViewController.swift */; };
+		9EFC6EA3245BF76600B1CB93 /* DateTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFC6E94245BF76500B1CB93 /* DateTextTableViewCell.xib */; };
+		9EFC6EA4245BF76600B1CB93 /* DateTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC6E95245BF76500B1CB93 /* DateTextTableViewCell.swift */; };
+		9EFC6EA5245BF76600B1CB93 /* DisplayScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFC6E96245BF76500B1CB93 /* DisplayScheduleTableViewCell.xib */; };
+		9EFC6EA6245BF76600B1CB93 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC6E97245BF76500B1CB93 /* DatePickerTableViewCell.swift */; };
+		9EFC6EA8245BF76600B1CB93 /* SaveActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC6E99245BF76500B1CB93 /* SaveActivityViewController.swift */; };
+		9EFC6EA9245BF76600B1CB93 /* DatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFC6E9A245BF76600B1CB93 /* DatePickerTableViewCell.xib */; };
+		9EFC6EAD245BF76600B1CB93 /* DisplayScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC6E9E245BF76600B1CB93 /* DisplayScheduleTableViewCell.swift */; };
+		9EFC6EAE245BF76600B1CB93 /* NewActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC6E9F245BF76600B1CB93 /* NewActivityViewController.swift */; };
+		9EFC6EB0245BF76600B1CB93 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC6EA1245BF76600B1CB93 /* Activity.swift */; };
+		EA1C71FD24651AFE00A36965 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C71FC24651AFE00A36965 /* addViewController.swift */; };
+		F23B9AAAA527136C83C98D3A /* Pods_Rhytm_RhytmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EC94D23C06CD3FF89B900A /* Pods_Rhytm_RhytmUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EC3036E244BD08B00ECB93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3034C244BD08A00ECB93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC30353244BD08A00ECB93A;
+			remoteInfo = Rhytm;
+		};
+		9EC30379244BD08B00ECB93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3034C244BD08A00ECB93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC30353244BD08A00ECB93A;
+			remoteInfo = Rhytm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028D36E72460EAB6008C0400 /* SongFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongFirebase.swift; sourceTree = "<group>"; };
+		028D36E924611A49008C0400 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		028D36EA24611A4E008C0400 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		028D36EB24611A51008C0400 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		028D36EF24626AF8008C0400 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		02D70976245FB0B90095CE2F /* You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = You.mp3; sourceTree = "<group>"; };
+		02D70977245FB0BF0095CE2F /* Comfort Zone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Comfort Zone.mp3"; sourceTree = "<group>"; };
+		02D7097A245FB0FB0095CE2F /* Echelon-Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Echelon-Effect.mp3"; sourceTree = "<group>"; };
+		02D7097D245FB41E0095CE2F /* MusicStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MusicStoryboard.storyboard; sourceTree = "<group>"; };
+		02D7097F245FB7FE0095CE2F /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		260F7FF30EA7500E1A500CC6 /* Pods-Rhytm-RhytmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhytm-RhytmUITests.debug.xcconfig"; path = "Target Support Files/Pods-Rhytm-RhytmUITests/Pods-Rhytm-RhytmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		275036295CD6DD7C2AA5767B /* Pods-Rhytm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhytm.release.xcconfig"; path = "Target Support Files/Pods-Rhytm/Pods-Rhytm.release.xcconfig"; sourceTree = "<group>"; };
+		29A66813DFB895146E8994C0 /* Pods-Rhytm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhytm.debug.xcconfig"; path = "Target Support Files/Pods-Rhytm/Pods-Rhytm.debug.xcconfig"; sourceTree = "<group>"; };
+		344CF9506E29D4B7E9B30DB2 /* Pods-RhytmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhytmTests.release.xcconfig"; path = "Target Support Files/Pods-RhytmTests/Pods-RhytmTests.release.xcconfig"; sourceTree = "<group>"; };
+		59753A8179EE5358E26CFD13 /* Pods-RhytmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhytmTests.debug.xcconfig"; path = "Target Support Files/Pods-RhytmTests/Pods-RhytmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95EC94D23C06CD3FF89B900A /* Pods_Rhytm_RhytmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rhytm_RhytmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0B1D9F245FD9BA00C02DA5 /* EditActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditActivityViewController.swift; sourceTree = "<group>"; };
+		9E0B1DA1246018A900C02DA5 /* ActivityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityCollectionViewCell.xib; sourceTree = "<group>"; };
+		9E0B1DA2246018AA00C02DA5 /* SavedDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedDisplayViewController.swift; sourceTree = "<group>"; };
+		9E0B1DA3246018AA00C02DA5 /* SearchableSavedDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchableSavedDataTableViewCell.swift; sourceTree = "<group>"; };
+		9E0B1DA4246018AA00C02DA5 /* SearchableSavedDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchableSavedDataTableViewCell.xib; sourceTree = "<group>"; };
+		9E0B1DA5246018AA00C02DA5 /* ActivityCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCollectionViewCell.swift; sourceTree = "<group>"; };
+		9E278135245C0442004C7888 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E278138245C0536004C7888 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E278139245C0536004C7888 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9E27813A245C0536004C7888 /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		9E278140245C0970004C7888 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E604B762455848900EEDBCA /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		9E70F055245557BA00712582 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EACAA6A245A3FE20025B2F6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9EAE831C2468DC6C00982232 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = "Rhytm/Login & Sign In/User.swift"; sourceTree = SOURCE_ROOT; };
+		9EAE831E24690B9700982232 /* EditUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserInfoViewController.swift; sourceTree = "<group>"; };
+		9EC30354244BD08A00ECB93A /* Rhytm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhytm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC30357244BD08A00ECB93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EC30361244BD08A00ECB93A /* Rhytm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rhytm.xcdatamodel; sourceTree = "<group>"; };
+		9EC30363244BD08B00ECB93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EC30368244BD08B00ECB93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC3036D244BD08B00ECB93A /* RhytmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhytmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC30371244BD08B00ECB93A /* RhytmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhytmTests.swift; sourceTree = "<group>"; };
+		9EC30373244BD08B00ECB93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC30378244BD08B00ECB93A /* RhytmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhytmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC3037C244BD08B00ECB93A /* RhytmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhytmUITests.swift; sourceTree = "<group>"; };
+		9EC3037E244BD08B00ECB93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC845302467E8A200CB542C /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		9ECA001C245A408B00C944FF /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		9EFC6E94245BF76500B1CB93 /* DateTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTextTableViewCell.xib; sourceTree = "<group>"; };
+		9EFC6E95245BF76500B1CB93 /* DateTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTextTableViewCell.swift; sourceTree = "<group>"; };
+		9EFC6E96245BF76500B1CB93 /* DisplayScheduleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		9EFC6E97245BF76500B1CB93 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		9EFC6E99245BF76500B1CB93 /* SaveActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveActivityViewController.swift; sourceTree = "<group>"; };
+		9EFC6E9A245BF76600B1CB93 /* DatePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerTableViewCell.xib; sourceTree = "<group>"; };
+		9EFC6E9E245BF76600B1CB93 /* DisplayScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		9EFC6E9F245BF76600B1CB93 /* NewActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewActivityViewController.swift; sourceTree = "<group>"; };
+		9EFC6EA1245BF76600B1CB93 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		B30A1CD26DBAA5AAE292B447 /* Pods_RhytmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RhytmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97449BA6B30B4858478BE7B /* Pods_Rhytm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rhytm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB9AA7E284244119B7C225A /* Pods-Rhytm-RhytmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhytm-RhytmUITests.release.xcconfig"; path = "Target Support Files/Pods-Rhytm-RhytmUITests/Pods-Rhytm-RhytmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA1C71FC24651AFE00A36965 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC30351244BD08A00ECB93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D88BCD80060D0EF9CAA390 /* Pods_Rhytm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC3036A244BD08B00ECB93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6C54336FB3EAC7445B95B8 /* Pods_RhytmTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC30375244BD08B00ECB93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23B9AAAA527136C83C98D3A /* Pods_Rhytm_RhytmUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D70975245FACB90095CE2F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				02D7097A245FB0FB0095CE2F /* Echelon-Effect.mp3 */,
+				02D70977245FB0BF0095CE2F /* Comfort Zone.mp3 */,
+				02D70976245FB0B90095CE2F /* You.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		02D7097C245FB22B0095CE2F /* Music Library */ = {
+			isa = PBXGroup;
+			children = (
+				02D7097D245FB41E0095CE2F /* MusicStoryboard.storyboard */,
+				02D7097F245FB7FE0095CE2F /* MusicViewController.swift */,
+				028D36E72460EAB6008C0400 /* SongFirebase.swift */,
+				028D36EB24611A51008C0400 /* TableViewCell.swift */,
+				028D36EA24611A4E008C0400 /* Videos.swift */,
+				028D36E924611A49008C0400 /* PlaylistViewController.swift */,
+				028D36EF24626AF8008C0400 /* TimerViewController.swift */,
+			);
+			path = "Music Library";
+			sourceTree = "<group>";
+		};
+		5CEDC412CF54E0FFB34F42D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97449BA6B30B4858478BE7B /* Pods_Rhytm.framework */,
+				95EC94D23C06CD3FF89B900A /* Pods_Rhytm_RhytmUITests.framework */,
+				B30A1CD26DBAA5AAE292B447 /* Pods_RhytmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E278137245C0536004C7888 /* Home and Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				9E278140245C0970004C7888 /* ViewController.swift */,
+				EA1C71FC24651AFE00A36965 /* addViewController.swift */,
+				9EC845302467E8A200CB542C /* UserProfileViewController.swift */,
+				9EAE831E24690B9700982232 /* EditUserInfoViewController.swift */,
+				9E0B1DA5246018AA00C02DA5 /* ActivityCollectionViewCell.swift */,
+				9E0B1DA1246018A900C02DA5 /* ActivityCollectionViewCell.xib */,
+				9E0B1DA2246018AA00C02DA5 /* SavedDisplayViewController.swift */,
+				9E0B1DA3246018AA00C02DA5 /* SearchableSavedDataTableViewCell.swift */,
+				9E0B1DA4246018AA00C02DA5 /* SearchableSavedDataTableViewCell.xib */,
+				9E0B1D9F245FD9BA00C02DA5 /* EditActivityViewController.swift */,
+				9E278139245C0536004C7888 /* Main.storyboard */,
+				9EFC6E99245BF76500B1CB93 /* SaveActivityViewController.swift */,
+				9EFC6E9F245BF76600B1CB93 /* NewActivityViewController.swift */,
+				9EFC6E97245BF76500B1CB93 /* DatePickerTableViewCell.swift */,
+				9EFC6E9A245BF76600B1CB93 /* DatePickerTableViewCell.xib */,
+				9EFC6E95245BF76500B1CB93 /* DateTextTableViewCell.swift */,
+				9EFC6E94245BF76500B1CB93 /* DateTextTableViewCell.xib */,
+				9EFC6E9E245BF76600B1CB93 /* DisplayScheduleTableViewCell.swift */,
+				9EFC6E96245BF76500B1CB93 /* DisplayScheduleTableViewCell.xib */,
+				9EFC6EA1245BF76600B1CB93 /* Activity.swift */,
+				9EAE831C2468DC6C00982232 /* User.swift */,
+			);
+			path = "Home and Scheduler";
+			sourceTree = "<group>";
+		};
+		9E27813E245C05C3004C7888 /* Login & Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				9E27813A245C0536004C7888 /* login.storyboard */,
+				9E604B762455848900EEDBCA /* welcomeViewController.swift */,
+				9EACAA6A245A3FE20025B2F6 /* SignUpViewController.swift */,
+				9ECA001C245A408B00C944FF /* loginViewController.swift */,
+			);
+			path = "Login & Sign In";
+			sourceTree = "<group>";
+		};
+		9E27813F245C0607004C7888 /* Launch  */ = {
+			isa = PBXGroup;
+			children = (
+				9E278138245C0536004C7888 /* LaunchScreen.storyboard */,
+			);
+			path = "Launch ";
+			sourceTree = "<group>";
+		};
+		9EC3034B244BD08A00ECB93A = {
+			isa = PBXGroup;
+			children = (
+				9EC30356244BD08A00ECB93A /* Rhytm */,
+				9EC30370244BD08B00ECB93A /* RhytmTests */,
+				9EC3037B244BD08B00ECB93A /* RhytmUITests */,
+				9EC30355244BD08A00ECB93A /* Products */,
+				F2C4C06A36C5048E5E4CE1B7 /* Pods */,
+				5CEDC412CF54E0FFB34F42D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC30355244BD08A00ECB93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC30354244BD08A00ECB93A /* Rhytm.app */,
+				9EC3036D244BD08B00ECB93A /* RhytmTests.xctest */,
+				9EC30378244BD08B00ECB93A /* RhytmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EC30356244BD08A00ECB93A /* Rhytm */ = {
+			isa = PBXGroup;
+			children = (
+				02D7097C245FB22B0095CE2F /* Music Library */,
+				02D70975245FACB90095CE2F /* Audio */,
+				9EC30357244BD08A00ECB93A /* AppDelegate.swift */,
+				9E278135245C0442004C7888 /* SceneDelegate.swift */,
+				9E27813F245C0607004C7888 /* Launch  */,
+				9E278137245C0536004C7888 /* Home and Scheduler */,
+				9E27813E245C05C3004C7888 /* Login & Sign In */,
+				9EC30363244BD08B00ECB93A /* Assets.xcassets */,
+				9EC30368244BD08B00ECB93A /* Info.plist */,
+				9E70F055245557BA00712582 /* GoogleService-Info.plist */,
+				9EC30360244BD08A00ECB93A /* Rhytm.xcdatamodeld */,
+			);
+			path = Rhytm;
+			sourceTree = "<group>";
+		};
+		9EC30370244BD08B00ECB93A /* RhytmTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC30371244BD08B00ECB93A /* RhytmTests.swift */,
+				9EC30373244BD08B00ECB93A /* Info.plist */,
+			);
+			path = RhytmTests;
+			sourceTree = "<group>";
+		};
+		9EC3037B244BD08B00ECB93A /* RhytmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC3037C244BD08B00ECB93A /* RhytmUITests.swift */,
+				9EC3037E244BD08B00ECB93A /* Info.plist */,
+			);
+			path = RhytmUITests;
+			sourceTree = "<group>";
+		};
+		F2C4C06A36C5048E5E4CE1B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29A66813DFB895146E8994C0 /* Pods-Rhytm.debug.xcconfig */,
+				275036295CD6DD7C2AA5767B /* Pods-Rhytm.release.xcconfig */,
+				260F7FF30EA7500E1A500CC6 /* Pods-Rhytm-RhytmUITests.debug.xcconfig */,
+				CAB9AA7E284244119B7C225A /* Pods-Rhytm-RhytmUITests.release.xcconfig */,
+				59753A8179EE5358E26CFD13 /* Pods-RhytmTests.debug.xcconfig */,
+				344CF9506E29D4B7E9B30DB2 /* Pods-RhytmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EC30353244BD08A00ECB93A /* Rhytm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC30381244BD08B00ECB93A /* Build configuration list for PBXNativeTarget "Rhytm" */;
+			buildPhases = (
+				858ABBF6D636EE8CD4577AFC /* [CP] Check Pods Manifest.lock */,
+				9EC30350244BD08A00ECB93A /* Sources */,
+				9EC30351244BD08A00ECB93A /* Frameworks */,
+				9EC30352244BD08A00ECB93A /* Resources */,
+				7A30BA69676B82D497A488AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rhytm;
+			productName = Rhytm;
+			productReference = 9EC30354244BD08A00ECB93A /* Rhytm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EC3036C244BD08B00ECB93A /* RhytmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC30384244BD08B00ECB93A /* Build configuration list for PBXNativeTarget "RhytmTests" */;
+			buildPhases = (
+				D48F70656BD329D090E79F47 /* [CP] Check Pods Manifest.lock */,
+				9EC30369244BD08B00ECB93A /* Sources */,
+				9EC3036A244BD08B00ECB93A /* Frameworks */,
+				9EC3036B244BD08B00ECB93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC3036F244BD08B00ECB93A /* PBXTargetDependency */,
+			);
+			name = RhytmTests;
+			productName = RhytmTests;
+			productReference = 9EC3036D244BD08B00ECB93A /* RhytmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EC30377244BD08B00ECB93A /* RhytmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC30387244BD08B00ECB93A /* Build configuration list for PBXNativeTarget "RhytmUITests" */;
+			buildPhases = (
+				A55E3FE365A79C0A751CECDE /* [CP] Check Pods Manifest.lock */,
+				9EC30374244BD08B00ECB93A /* Sources */,
+				9EC30375244BD08B00ECB93A /* Frameworks */,
+				9EC30376244BD08B00ECB93A /* Resources */,
+				C8F3B6A3537BA6482DE5AE0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC3037A244BD08B00ECB93A /* PBXTargetDependency */,
+			);
+			name = RhytmUITests;
+			productName = RhytmUITests;
+			productReference = 9EC30378244BD08B00ECB93A /* RhytmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EC3034C244BD08A00ECB93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = NYUiOS;
+				TargetAttributes = {
+					9EC30353244BD08A00ECB93A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9EC3036C244BD08B00ECB93A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9EC30353244BD08A00ECB93A;
+					};
+					9EC30377244BD08B00ECB93A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9EC30353244BD08A00ECB93A;
+					};
+				};
+			};
+			buildConfigurationList = 9EC3034F244BD08A00ECB93A /* Build configuration list for PBXProject "Rhytm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EC3034B244BD08A00ECB93A;
+			productRefGroup = 9EC30355244BD08A00ECB93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EC30353244BD08A00ECB93A /* Rhytm */,
+				9EC3036C244BD08B00ECB93A /* RhytmTests */,
+				9EC30377244BD08B00ECB93A /* RhytmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EC30352244BD08A00ECB93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D7097E245FB41E0095CE2F /* MusicStoryboard.storyboard in Resources */,
+				9EFC6EA9245BF76600B1CB93 /* DatePickerTableViewCell.xib in Resources */,
+				9E0B1DA9246018AA00C02DA5 /* SearchableSavedDataTableViewCell.xib in Resources */,
+				9EFC6EA3245BF76600B1CB93 /* DateTextTableViewCell.xib in Resources */,
+				9E70F056245557BB00712582 /* GoogleService-Info.plist in Resources */,
+				9E27813D245C0536004C7888 /* login.storyboard in Resources */,
+				02D7097B245FB0FB0095CE2F /* Echelon-Effect.mp3 in Resources */,
+				9E27813C245C0536004C7888 /* Main.storyboard in Resources */,
+				02D70979245FB0C00095CE2F /* Comfort Zone.mp3 in Resources */,
+				9EFC6EA5245BF76600B1CB93 /* DisplayScheduleTableViewCell.xib in Resources */,
+				9E27813B245C0536004C7888 /* LaunchScreen.storyboard in Resources */,
+				02D70978245FB0C00095CE2F /* You.mp3 in Resources */,
+				9EC30364244BD08B00ECB93A /* Assets.xcassets in Resources */,
+				9E0B1DA6246018AA00C02DA5 /* ActivityCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC3036B244BD08B00ECB93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC30376244BD08B00ECB93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A30BA69676B82D497A488AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rhytm/Pods-Rhytm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rhytm/Pods-Rhytm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rhytm/Pods-Rhytm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		858ABBF6D636EE8CD4577AFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rhytm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55E3FE365A79C0A751CECDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rhytm-RhytmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F3B6A3537BA6482DE5AE0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rhytm-RhytmUITests/Pods-Rhytm-RhytmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rhytm-RhytmUITests/Pods-Rhytm-RhytmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rhytm-RhytmUITests/Pods-Rhytm-RhytmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48F70656BD329D090E79F47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RhytmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EC30350244BD08A00ECB93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAE831D2468DC6C00982232 /* User.swift in Sources */,
+				9E0B1DA7246018AA00C02DA5 /* SavedDisplayViewController.swift in Sources */,
+				9EAE831F24690B9700982232 /* EditUserInfoViewController.swift in Sources */,
+				9EC845312467E8A200CB542C /* UserProfileViewController.swift in Sources */,
+				9EFC6EB0245BF76600B1CB93 /* Activity.swift in Sources */,
+				9ECA001D245A408B00C944FF /* loginViewController.swift in Sources */,
+				028D36ED24611A51008C0400 /* Videos.swift in Sources */,
+				9EFC6EA8245BF76600B1CB93 /* SaveActivityViewController.swift in Sources */,
+				9EACAA6B245A3FE20025B2F6 /* SignUpViewController.swift in Sources */,
+				028D36E82460EAB6008C0400 /* SongFirebase.swift in Sources */,
+				9EC30358244BD08A00ECB93A /* AppDelegate.swift in Sources */,
+				9EFC6EA4245BF76600B1CB93 /* DateTextTableViewCell.swift in Sources */,
+				9E0B1DA0245FD9BB00C02DA5 /* EditActivityViewController.swift in Sources */,
+				EA1C71FD24651AFE00A36965 /* addViewController.swift in Sources */,
+				9E0B1DAA246018AA00C02DA5 /* ActivityCollectionViewCell.swift in Sources */,
+				028D36EC24611A51008C0400 /* PlaylistViewController.swift in Sources */,
+				9EC30362244BD08A00ECB93A /* Rhytm.xcdatamodeld in Sources */,
+				9E278136245C0442004C7888 /* SceneDelegate.swift in Sources */,
+				028D36F024626AF8008C0400 /* TimerViewController.swift in Sources */,
+				02D70980245FB7FE0095CE2F /* MusicViewController.swift in Sources */,
+				9E278141245C0970004C7888 /* ViewController.swift in Sources */,
+				9E0B1DA8246018AA00C02DA5 /* SearchableSavedDataTableViewCell.swift in Sources */,
+				028D36EE24611A51008C0400 /* TableViewCell.swift in Sources */,
+				9E604B772455848900EEDBCA /* welcomeViewController.swift in Sources */,
+				9EFC6EAD245BF76600B1CB93 /* DisplayScheduleTableViewCell.swift in Sources */,
+				9EFC6EA6245BF76600B1CB93 /* DatePickerTableViewCell.swift in Sources */,
+				9EFC6EAE245BF76600B1CB93 /* NewActivityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC30369244BD08B00ECB93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC30372244BD08B00ECB93A /* RhytmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC30374244BD08B00ECB93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC3037D244BD08B00ECB93A /* RhytmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC3036F244BD08B00ECB93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC30353244BD08A00ECB93A /* Rhytm */;
+			targetProxy = 9EC3036E244BD08B00ECB93A /* PBXContainerItemProxy */;
+		};
+		9EC3037A244BD08B00ECB93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC30353244BD08A00ECB93A /* Rhytm */;
+			targetProxy = 9EC30379244BD08B00ECB93A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9EC3037F244BD08B00ECB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EC30380244BD08B00ECB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EC30382244BD08B00ECB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A66813DFB895146E8994C0 /* Pods-Rhytm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Rhytm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NYUiOS.Rhytm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EC30383244BD08B00ECB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275036295CD6DD7C2AA5767B /* Pods-Rhytm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Rhytm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NYUiOS.Rhytm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EC30385244BD08B00ECB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59753A8179EE5358E26CFD13 /* Pods-RhytmTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RhytmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NYUiOS.RhytmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhytm.app/Rhytm";
+			};
+			name = Debug;
+		};
+		9EC30386244BD08B00ECB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344CF9506E29D4B7E9B30DB2 /* Pods-RhytmTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RhytmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NYUiOS.RhytmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhytm.app/Rhytm";
+			};
+			name = Release;
+		};
+		9EC30388244BD08B00ECB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260F7FF30EA7500E1A500CC6 /* Pods-Rhytm-RhytmUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RhytmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NYUiOS.RhytmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rhytm;
+			};
+			name = Debug;
+		};
+		9EC30389244BD08B00ECB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB9AA7E284244119B7C225A /* Pods-Rhytm-RhytmUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RhytmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NYUiOS.RhytmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rhytm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EC3034F244BD08A00ECB93A /* Build configuration list for PBXProject "Rhytm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC3037F244BD08B00ECB93A /* Debug */,
+				9EC30380244BD08B00ECB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC30381244BD08B00ECB93A /* Build configuration list for PBXNativeTarget "Rhytm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC30382244BD08B00ECB93A /* Debug */,
+				9EC30383244BD08B00ECB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC30384244BD08B00ECB93A /* Build configuration list for PBXNativeTarget "RhytmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC30385244BD08B00ECB93A /* Debug */,
+				9EC30386244BD08B00ECB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC30387244BD08B00ECB93A /* Build configuration list for PBXNativeTarget "RhytmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC30388244BD08B00ECB93A /* Debug */,
+				9EC30389244BD08B00ECB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9EC30360244BD08A00ECB93A /* Rhytm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9EC30361244BD08A00ECB93A /* Rhytm.xcdatamodel */,
+			);
+			currentVersion = 9EC30361244BD08A00ECB93A /* Rhytm.xcdatamodel */;
+			path = Rhytm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9EC3034C244BD08A00ECB93A /* Project object */;
+}

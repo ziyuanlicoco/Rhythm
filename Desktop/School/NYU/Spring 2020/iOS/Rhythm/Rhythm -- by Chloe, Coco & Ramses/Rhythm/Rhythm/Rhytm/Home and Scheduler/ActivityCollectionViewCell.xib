@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ActivityCollectionViewCell" customModule="Rhytm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="165"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="165"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="big-col" translatesAutoresizingMaskIntoConstraints="NO" id="t3L-fm-zhf">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="120"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7c-06-5aR">
+                        <rect key="frame" x="16" y="57" width="97" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="fx8-ob-8sD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H55-gV-yDc">
+                        <rect key="frame" x="13" y="21" width="100" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="4mr-F5-7As"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="H55-gV-yDc" secondAttribute="trailing" id="0Y9-lt-VR1"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="L7c-06-5aR" secondAttribute="trailing" constant="15" id="HUC-Vq-5tE"/>
+                <constraint firstItem="H55-gV-yDc" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="cos-5Q-OXF"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="L7c-06-5aR" secondAttribute="bottom" constant="11" id="f4C-VI-gIe"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="H55-gV-yDc" secondAttribute="top" constant="-1" id="o27-SV-78P"/>
+                <constraint firstItem="L7c-06-5aR" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="16" id="xXW-FP-EpG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="179" height="214"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="L7c-06-5aR" id="hRF-54-Ebf"/>
+                <outlet property="nameLabel" destination="H55-gV-yDc" id="lIX-5j-FRE"/>
+            </connections>
+            <point key="canvasLocation" x="233.33333333333334" y="157.70089285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="big-col" width="210" height="210"/>
+    </resources>
+</document>

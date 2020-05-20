@@ -1,0 +1,6 @@
+framework module Pods_RhytmTests {
+  umbrella header "Pods-RhytmTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
