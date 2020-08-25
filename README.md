@@ -3,6 +3,7 @@ Do you like being organized? Do you want to be better at managing your time? Do 
 <br><br>
 Try Rhythm! Rhythm will give you an awesome experience to be productive and enjoy music at the same time. Simply choose your list of music while creating each task. Rhythm will play and change your playlist FOR YOU when you start a new activity, and all you need to do is focusing on your schedule!
 
-![Alt Text](https://imgur.com/FsZNJp1)
-<br><br>
+
+<img src="https://i.ibb.co/N1N1QD8/rhythm-logo.png" width="20%">
+<br>
 (Group project with Chloe Li and Ramses Sanchez-Hernandez)
